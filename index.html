@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="carousel">
+
+<div class="carousel-item carousel-item-visible">
+    <img src="images/html.png" alt="html5 logo">
+    <button class="accordion">Read More</button>
+<div class="panel">
+  <p>HTML (HyperText Markup Language) is the most basic building block of the Web.
+    It is the code that is used to structure a web page and its content. <br>
+    <strong>Ex.</strong> the images, buttons, and text you see here was all structured with HTML.
+  </p>
+</div>
+</div>
+
+<div class="carousel-item">
+    <img src="images/css.png" alt="css3 logo">
+    <button class="accordion">Read More</button>
+<div class="panel">
+  <p>Cascading Style Sheets (CSS) is among the core languages of the open web.
+    Stylesheet language is used to describe the presentation and how elements should be rendered on the screen of a document written in HTML. <br>
+    <strong>Ex.</strong> The placement of the content, size and colors of the buttons you see here are all presented with CSS.
+</p>
+</div>
+</div>
+
+<div class="carousel-item">
+    <img src="images/javascript.png" alt="javascript logo">
+    <button class="accordion">Read More</button>
+<div class="panel">
+  <p>JavaScript is a programming language that allows us to implement complex things on web pages.
+    Every time a web page does more than just sit there and display static information for you to look at, timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, or more—you can bet that JavaScript is probably involved. <br>
+    <strong>Ex.</strong> The spinning of the cards, and the dropdown information you are experienceing on these pages are all powered with JavaScript.
+  </p>
+</div>
+</div>
+
+<div class="carousel-actions">
+    <button aria-label="previous slide" id="prevBtn"><</button>
+    <button aria-label="next slide" id="nextBtn">></button>
+</div>
+
+<!-- <button aria-label="read more" class="readMore">Read More</button> -->
+
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
